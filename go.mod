@@ -18,7 +18,7 @@ require (
 	github.com/distribution/reference v0.5.0
 	github.com/docker/cli v24.0.7+incompatible
 	github.com/fluxcd/helm-controller/api v0.32.2
-	github.com/fluxcd/pkg/apis/meta v1.0.0
+	github.com/fluxcd/pkg/apis/meta v1.3.0
 	github.com/fluxcd/pkg/oci v0.23.0
 	github.com/fluxcd/pkg/version v0.2.2
 	github.com/fluxcd/source-controller/api v0.36.1
@@ -43,7 +43,7 @@ require (
 	github.com/vmware-tanzu/carvel-kapp v0.56.0
 	github.com/vmware-tanzu/carvel-kapp-controller v0.48.2
 	github.com/vmware-tanzu/carvel-vendir v0.35.2
-	golang.org/x/net v0.19.0
+	golang.org/x/net v0.20.0
 	golang.org/x/sync v0.5.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231106174013-bbf56f31fb17
 	google.golang.org/grpc v1.60.0
@@ -53,7 +53,7 @@ require (
 	helm.sh/helm/v3 v3.11.3
 	k8s.io/api v0.26.7
 	k8s.io/apiextensions-apiserver v0.26.3
-	k8s.io/apimachinery v0.26.7
+	k8s.io/apimachinery v0.28.6
 	k8s.io/apiserver v0.26.7
 	k8s.io/cli-runtime v0.26.7
 	k8s.io/client-go v0.26.7
@@ -136,6 +136,7 @@ require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/gnostic v0.6.9 // indirect
+	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.4.0 // indirect
@@ -214,12 +215,12 @@ require (
 	go.starlark.net v0.0.0-20230726094710-7dadff395006 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/image v0.10.0 // indirect
 	golang.org/x/oauth2 v0.15.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/term v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.3.0 // indirect
@@ -230,7 +231,7 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/component-base v0.26.7 // indirect
-	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
+	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.12.1 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.13.9 // indirect
